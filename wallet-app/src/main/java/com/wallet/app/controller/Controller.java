@@ -101,7 +101,7 @@ public class Controller {
             Integer homeInput = numScan.nextInt();
 
             if (homeInput == 3)
-                System.out.println("vj");
+               
                 break;
 
             else if (homeInput == 1) {
