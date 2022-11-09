@@ -100,7 +100,9 @@ public class Controller {
             System.out.println("Choose:\n1 - Register\n2 - Login\n3 - Exit\n4 - Show all users");
             Integer homeInput = numScan.nextInt();
 
-            if (homeInput == 3) break;
+            if (homeInput == 3)
+                System.out.println("vj");
+                break;
 
             else if (homeInput == 1) {
                 System.out.println("[*][*][*] Registration page [*][*][*]");
